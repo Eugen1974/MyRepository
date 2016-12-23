@@ -1,0 +1,14 @@
+дек 23, 2016 10:11:13 AM others.Main main
+SEVERE: Block main
+java.lang.ArithmeticException: / by zero
+	at others.Main.main(Main.java:11)
+
+дек 23, 2016 10:11:13 AM others.Main main
+SEVERE: Block InputStream
+java.io.FileNotFoundException: file.txt (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at others.Main.main(Main.java:18)
+
