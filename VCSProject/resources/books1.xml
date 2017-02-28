@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<books>
+    <book id="1">
+        <author>Алёна</author>
+        <name>Книга №1</name>
+        <price>11.1</price>
+        <dataPublisher>15.02.1974</dataPublisher>
+    </book>
+    <book id="2">
+        <author>Дарья</author>
+        <name>Книга №2</name>
+        <price>22.2</price>
+        <dataPublisher>16.03.1975</dataPublisher>
+    </book>
+    <book id="3">
+        <author>Света</author>
+        <name>Книга №3</name>
+        <price>33.3</price>
+        <dataPublisher>17.04.1976</dataPublisher>
+    </book>
+</books>

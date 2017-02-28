@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book id="1">
+        <author>Петя</author>
+        <name>1-я книга</name>
+        <price>11.1</price>
+        <dataPublisher>10.01.2011</dataPublisher>
+    </book>
+    <book id="2">
+        <author>Вася</author>
+        <name>2-я книга</name>
+        <price>22.2</price>
+        <dataPublisher>11.02.2012</dataPublisher>
+    </book>
+    <book id="3">
+        <author>Женя</author>
+        <name>3-я книга</name>
+        <price>33.3</price>
+        <dataPublisher>12.03.2013</dataPublisher>
+    </book>
+</books>
