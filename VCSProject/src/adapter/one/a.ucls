@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="adapter.one.ConstantVoltage" project="VCSProject" 
+    file="/VCSProject/src/adapter/one/ConstantVoltage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="377" y="180"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="adapter.one.AdapterPower" project="VCSProject" 
+    file="/VCSProject/src/adapter/one/AdapterPower.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="133" y="179"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="adapter.one.ISourcePower" project="VCSProject" 
+    file="/VCSProject/src/adapter/one/ISourcePower.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="132" y="48"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </interface>  
+  <association id="4">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="5" name="source">        
+        <position height="0" width="0" x="-308" y="-99"/>      
+      </attribute>      
+      <multiplicity id="6" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-308" y="-99"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <realization id="7">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="memento.one.Memento" project="VCSProject" 
+    file="/VCSProject/src/memento/one/Memento.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="322" y="265"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="memento.one.Caretaker" project="VCSProject" 
+    file="/VCSProject/src/memento/one/Caretaker.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="541" y="325"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="memento.two.Data" project="VCSProject" 
+    file="/VCSProject/src/memento/two/Data.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="228" y="97"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="memento.one.Originator" project="VCSProject" 
+    file="/VCSProject/src/memento/one/Originator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="119" y="282"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <association id="5">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="6" name="data"/>      
+      <multiplicity id="7" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <association id="8">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="9" name="data"/>      
+      <multiplicity id="10" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <association id="11">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="12" name="memento"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="true"/>
+</class-diagram>

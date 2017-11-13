@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="abstract_factory.IPower" project="VCSProject" 
+    file="/VCSProject/src/abstract_factory/IPower.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="124" y="75"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </interface>  
+  <interface id="2" language="java" name="abstract_factory.IKeyboard" project="VCSProject" 
+    file="/VCSProject/src/abstract_factory/IKeyboard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="388" y="79"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="abstract_factory.RuPower" project="VCSProject" 
+    file="/VCSProject/src/abstract_factory/RuPower.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="78" y="207"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="abstract_factory.EnPower" project="VCSProject" 
+    file="/VCSProject/src/abstract_factory/EnPower.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="183" y="207"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="abstract_factory.RuKeyboard" project="VCSProject" 
+    file="/VCSProject/src/abstract_factory/RuKeyboard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="321" y="213"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="abstract_factory.EnKeyboard" project="VCSProject" 
+    file="/VCSProject/src/abstract_factory/EnKeyboard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="465" y="212"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="abstract_factory.IDevice" project="VCSProject" 
+    file="/VCSProject/src/abstract_factory/IDevice.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="783" y="58"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="abstract_factory.RuDevice" project="VCSProject" 
+    file="/VCSProject/src/abstract_factory/RuDevice.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="709" y="189"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="abstract_factory.EnDevice" project="VCSProject" 
+    file="/VCSProject/src/abstract_factory/EnDevice.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="899" y="190"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <realization id="10">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="11">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="12">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="13">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="14">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="15">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="false" package="false" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="true"/>
+</class-diagram>
