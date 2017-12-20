@@ -1,0 +1,53 @@
+﻿CREATE TABLE COMPANY(
+   ID  		  SERIAL    PRIMARY KEY,
+   NAME           TEXT      NOT NULL,
+   AGE            INT       NOT NULL,
+   ADDRESS        CHAR(50),
+   SALARY         REAL
+);
+
+INSERT INTO COMPANY (NAME,AGE,ADDRESS,SALARY)
+VALUES ('Paul', 32, 'California', 20000.00 );
+
+--------------
+SERIAL implicitly creates sequences
+ 
+if you use 'id SERIAL', it will automatically creates a sequence in PostgreSQL. Name of that sequence will be <table name>_<column name>_seq
+
+CREATE SEQUENCE user_id_seq;
+CREATE TABLE user (
+    user_id smallint NOT NULL DEFAULT nextval('user_id_seq')
+);
+ALTER SEQUENCE user_id_seq OWNED BY user.user_id;
+
+the sequence is marked as "owned by" the column, so that it will be dropped if the column or table is dropped.
+You can drop the sequence without dropping the column, but this will force removal of the column default expression.
+
+The type name smallserial creates a  smallint column     smallint 2 bytes small-range 	     integer -32768 to +32767 
+The type name serial 	  creates an integer columns
+The type name bigserial   creates a  bigint column
+
+serial    4 bytes autoincrementing integer 1 to 2147483647 
+bigserial 8 bytes large autoincrementing integer 1 to 9223372036854775807 
+
+--------------------
+https://www.postgresql.org/docs/9.1/static/datatype-numeric.html
+
+8.1.4. Serial Types
+
+The data types serial and bigserial are not true types, but merely a notational convenience for creating unique identifier columns.
+In the current implementation, specifying:
+
+CREATE TABLE tablename (
+    colname SERIAL
+);
+
+is equivalent to specifying:
+
+CREATE SEQUENCE tablename_colname_seq;
+CREATE TABLE tablename (
+    colname integer NOT NULL DEFAULT nextval('tablename_colname_seq')
+);
+ALTER SEQUENCE tablename_colname_seq OWNED BY tablename.colname;
+
+

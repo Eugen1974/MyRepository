@@ -1,0 +1,82 @@
+﻿EXPERIENCE0name={}
+EXPERIENCE0link={}
+EXPERIENCE0startDate={}
+EXPERIENCE0endDate={}
+EXPERIENCE0title={}
+EXPERIENCE0description={}
+
+EXPERIENCE1name={Java Online Courses}
+EXPERIENCE1link={http://javaops.ru}
+EXPERIENCE1startDate={10.2013}
+EXPERIENCE1endDate={сейчас}
+EXPERIENCE1title={Автор и преподаватель.}
+EXPERIENCE1description={Java Enterprise.
+Веб-сервисы.
+Практика Java.}
+
+EXPERIENCE2name={Wrike}
+EXPERIENCE2link={https://wrike.com}
+EXPERIENCE2startDate={10.2014}
+EXPERIENCE2endDate={01.2016}
+EXPERIENCE2title={Старший разработчик (backend).}
+EXPERIENCE2description={Проектирование и разработка.}
+
+EXPERIENCE3name={RIT Center}
+EXPERIENCE3link={https://ritcenter.com}
+EXPERIENCE3startDate={04.2012}
+EXPERIENCE3endDate={10.2014}
+EXPERIENCE3title={Java архитектор.}
+EXPERIENCE3description={Организация процесса разработки.}
+
+EXPERIENCE4name={Luxoft (Deutsche Bank)}
+EXPERIENCE4link={https://luxoft.com}
+EXPERIENCE4startDate={12.2010}
+EXPERIENCE4endDate={04.2012}
+EXPERIENCE4title={Ведущий программист.}
+EXPERIENCE4description={Участие в проекте.}
+
+EXPERIENCE5name={Yota}
+EXPERIENCE5link={https://yota.com}
+EXPERIENCE5startDate={06.2008}
+EXPERIENCE5endDate={12.2010}
+EXPERIENCE5title={Ведущий специалист.}
+EXPERIENCE5description={Дизайн и имплементация.}
+
+EXPERIENCE6name={Enkata}
+EXPERIENCE6link={https://enkata.com}
+EXPERIENCE6startDate={03.2007}
+EXPERIENCE6endDate={06.2008}
+EXPERIENCE6title={Разработчик ПО.}
+EXPERIENCE6description={Реализация клиентской части.}
+
+EXPERIENCE7name={Siemens AG}
+EXPERIENCE7link={https://siemens.com}
+EXPERIENCE7startDate={01.2005}
+EXPERIENCE7endDate={02.2007}
+EXPERIENCE7title={Разработчик ПО.}
+EXPERIENCE7description={Разработка информационной модели.}
+
+EXPERIENCE8name={Alcatel}
+EXPERIENCE8link={https://alcatel.com}
+EXPERIENCE8startDate={09.1997}
+EXPERIENCE8endDate={01.2005}
+EXPERIENCE8title={Инженер по тестированию.}
+EXPERIENCE8description={Тестирование, отладка.}
+
+EDUCATION0name={}
+EDUCATION0link={}
+EDUCATION0startDate={}
+EDUCATION0endDate={}
+EDUCATION0title={}
+
+EDUCATION1name={Киевский политех}
+EDUCATION1link={https://kpi.ua}
+EDUCATION1startDate={1993, 1987}
+EDUCATION1endDate={1996, 1993}
+EDUCATION1title={Аспирантура., Инженер.}
+
+EDUCATION2name={Заочная школа}
+EDUCATION2link={https://kpi_school.ua}
+EDUCATION2startDate={1984}
+EDUCATION2endDate={1987}
+EDUCATION2title={закончил с отличием :)}
