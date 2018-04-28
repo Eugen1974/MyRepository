@@ -1,0 +1,13 @@
+.my {
+	-fx-font-family: "Times New Roman";
+	-fx-font-size: 14pt;
+	-fx-font-weight: bold;
+}
+
+.colour1 {
+	-fx-color: red;
+}
+
+.colour2 {
+	-fx-background-color: yellow;
+}
